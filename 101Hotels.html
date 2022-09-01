@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>101 Hotels</title>
+    <link href="101.jpg" rel="icon" type="image/x-icon">
+    <link href="101HotelsStyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+          rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+          integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
+
+</head>
+<body>
+<header>
+    <a class="logo" href="#">
+        <img class="img-logo" src="101Hotels.jpg" style="width: 90px; height: 60px">
+    </a>
+    <div class="navigation">
+        <div class="dropbtn"><i class="fa-sharp fa-solid fa-bars"></i></div>
+        <div class="dropdown-content">
+            <a href="#Book">Book Now</a>
+            <a href="#About">About</a>
+            <a href="#Services">Services</a>
+            <a href="#Rooms">Rooms</a>
+            <a href="#Contact">Contact Us</a>
+            </ul>
+        </div>
+    </div>
+</header>
+<section class="main" id="Book">
+    <form class="register">
+        <div class="register-form">
+            <div class="dates">
+                <div class="indate">
+                    <label class="register">Check In Date</label>
+                    <input name="date" required type="date"> <br>
+                </div>
+                <div class="outdate">
+                    <label class="register">Check Out Date</label>
+                    <input name="date" required type="date"> <br>
+                </div>
+            </div>
+            <div class="Numbers">
+                <div class="room">
+                    <label class="register">Rooms</label>
+                    <select name="Rooms">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <br>
+                <div class="adults">
+                    <label class="register">Adults</label>
+                    <select name="Adults">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <br>
+                <div class="children">
+                    <label class="register">Children</label>
+                    <select name="Children">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <br>
+            </div>
+        </div>
+    </form>
+    <div class="confirm">
+        <a class="btn" href="#Rooms">Check Availability</a>
+        <div class="scrolldown">
+            <a class="arrow" href="#About"><i class="fas fa-angle-double-down"></i></a>
+        </div>
+    </div>
+
+</section>
+<section class="about" id="About">
+    <h2 class="title">What Is 101 Hotels?</h2>
+    <div class="content">
+        <div class="image">
+            <img src="101.jpg">
+        </div>
+        <div class="desc">
+            <blockquote>
+                It is a hotel that has a lot of branches and the main one will be in the capital Cairo with
+                a competitive price for its value. <br><br> Our Objective is to serve people who want to explore
+                Egypt and to visit places that not everyone has interest to visit it. With a little cost,
+                a good service and unique experience. <br><br> Thus, we need to take care of cost and to make a
+                structured organization that left a smile on the face of each customer.
+            </blockquote>
+        </div>
+    </div>
+</section>
+<hr>
+<section class=services id="Services">
+    <h2 class="title">Hotel Services</h2>
+    <div class=content>
+        <div class="s-card">
+            <div class="icon">
+                <i class="fa-sharp fa-solid fa-wifi"></i>
+            </div>
+            <div class=desc>
+                Free Wifi
+            </div>
+        </div>
+        <div class="s-card">
+            <div class="icon">
+                <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class=desc>
+                Restaurants
+            </div>
+        </div>
+        <div class="s-card">
+            <div class="icon">
+                <i class="fa-solid fa-wine-glass-empty"></i>
+            </div>
+            <div class=desc>
+                Bars
+            </div>
+        </div>
+        <div class="s-card">
+            <div class="icon">
+                <i class="fa-solid fa-water-ladder"></i>
+            </div>
+            <div class=desc>
+                Swimming Pools
+            </div>
+        </div>
+        <div class="s-card">
+            <div class="icon">
+                <i class='fas fa-parking'></i>
+            </div>
+            <div class=desc>
+                Free Parking
+            </div>
+        </div>
+        <div class="s-card">
+            <div class="icon">
+                <i class="fas fa-bed"></i>
+            </div>
+            <div class=desc>
+                Luxurious Rooms
+            </div>
+        </div>
+        <div class="s-card">
+            <div class="icon">
+                <i class="fa-solid fa-spa"></i>
+            </div>
+            <div class=desc>
+                Jacuzzi & Spa
+            </div>
+        </div>
+        <div class="s-card">
+            <div class="icon">
+                <i class="fa-solid fa-dumbbell"></i>
+            </div>
+            <div class=desc>
+                Gym
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+<section class="Rooms" id="Rooms">
+    <h2 class="title">Featured Rooms</h2>
+    <div class="content">
+        <div class="r-card">
+            <div class="image">
+                <img src="https://setupmyhotel.com/images/Room-Type-Single-Room.jpg">
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-person"></i>
+            </div>
+            <div class="desc">
+                Single Room
+            </div>
+            <div class="cost">100$/Night</div>
+
+        </div>
+        <div class="r-card">
+            <div class="image">
+                <img src="https://setupmyhotel.com/images/Room-Type-Twin-Room.jpg">
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-person"></i>
+                <i class="fa-solid fa-person"></i>
+            </div>
+            <div class="desc">
+                Double Room
+            </div>
+            <div class="cost">150$/Night</div>
+        </div>
+        <div class="r-card">
+            <div class="image">
+                <img src="https://setupmyhotel.com/images/Room-Type-Triple-Room.jpg">
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-person"></i>
+                <i class="fa-solid fa-person"></i>
+                <i class="fa-solid fa-person"></i>
+            </div>
+            <div class="desc">
+                Triple Room
+            </div>
+            <div class="cost">200$/Night</div>
+        </div>
+        <div class="r-card">
+            <div class="image">
+                <img src="https://setupmyhotel.com/images/Room-Type-suite-Room.jpg?ezimgfmt=rs:300x250/rscb337/ng:webp/ngcb337">
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-crown"></i>
+            </div>
+            <div class="desc">
+                Suite
+            </div>
+            <div class="cost">300$/Night</div>
+
+        </div>
+    </div>
+</section>
+<section class="Contact" id="Contact">
+    <div class="cont">
+        <a href="tel:01206021274" target="_blank"><i class="fa-sharp fa-solid fa-phone"></i></a>
+        <span>+20-33502300</span>
+    </div>
+    <div class="cont">
+        <a href="https://www.google.com/maps/place/Savoy+Sharm+El+Sheikh/@27.9611731,34.3929342,17z/data=!3m1!4b1!4m8!3m7!1s0x145349a3ee875b59:0x4a8f02c46ca64cbe!5m2!4m1!1i2!8m2!3d27.9611731!4d34.3951229"
+           target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+        <span class="spec"> PO Box 140 SOHO Square Sharm El Sheikh South Sinai, Egypt</span>
+    </div>
+    <div class="cont">
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        <span>101Hotels@SOHO-sharm.com</span>
+    </div>
+    <div class="cont">
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <span>www.101Hotels.com</span>
+    </div>
+</section>
+<footer>
+    <p class="foot-title">
+        Copyrights © 2022
+        <span class="Name"> Fady Ashraf </span>
+    </p>
+    <div class="social-icons">
+        <a class="fb" href="https://www.facebook.com/fo2sh8706/" target="_blank"><i
+                class="fa-brands fa-facebook"></i></a>
+        <a class="twitter" href="https://twitter.com/fadyashraf02" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a class="ig" href="https://www.instagram.com/fadyashraf02/" target="_blank"><i
+                class="fa-brands fa-instagram"></i></a>
+    </div>
+</footer>
+</body>
+</html>
